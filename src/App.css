@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(128deg, rgba(2, 0, 36, 1) 0%, rgba(153, 153, 255, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+}
+
+.App h1,
+.App p {
+  color: white;
+  text-transform: uppercase;
+}
+
+.App img {
+  height: 100px;
+  margin: 50px;
+}
+
+.App .p {
+  width: 50vw;
+  text-align: center;
+}
+
+.App div {
+  flex-direction: row;
+  display: flex;
+}
+
+.App button {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: none;
+}
+
+.App .fase {
+  margin: 10px;
+}
